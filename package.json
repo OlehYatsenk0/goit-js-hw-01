@@ -1,19 +1,24 @@
 {
-    "name": "goit-js-hw-01",
-    "version": "1.0.0",
-    "description": "Homework #1 JavaScript course",
-    "scripts": {
-      "push": "git add . && git commit -m 'update' && git push"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/OlehYatsenk0/goit-js-hw-01.git"
-    },
-    "keywords": [],
-    "author": "Oleh Yatsenko",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/OlehYatsenk0/goit-js-hw-01/issues"
-    },
-    "homepage": "https://github.com/OlehYatsenk0/goit-js-hw-01#readme"
+  "name": "goit-js-hw-01",
+  "version": "1.0.0",
+  "description": "Homework #1 JavaScript course",
+  "scripts": {
+    "predeploy": "npm run build",  // если есть сборка
+    "deploy": "gh-pages -d ./",    // укажи папку с HTML/JS, например ./ или ./docs
+    "push": "git add . && git commit -m 'update' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlehYatsenk0/goit-js-hw-01.git"
+  },
+  "keywords": [],
+  "author": "Oleh Yatsenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlehYatsenk0/goit-js-hw-01/issues"
+  },
+  "homepage": "https://olehyatsenk0.github.io/goit-js-hw-01",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
+}
