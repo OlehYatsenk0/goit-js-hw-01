@@ -1,0 +1,19 @@
+{
+    "name": "goit-js-hw-01",
+    "version": "1.0.0",
+    "description": "Homework #1 JavaScript course",
+    "scripts": {
+      "push": "git add . && git commit -m 'update' && git push"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/OlehYatsenk0/goit-js-hw-01.git"
+    },
+    "keywords": [],
+    "author": "Oleh Yatsenko",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/OlehYatsenk0/goit-js-hw-01/issues"
+    },
+    "homepage": "https://github.com/OlehYatsenk0/goit-js-hw-01#readme"
+  }
