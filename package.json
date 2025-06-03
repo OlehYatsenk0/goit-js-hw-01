@@ -18,6 +18,6 @@
   },
   "homepage": "https://olehyatsenk0.github.io/goit-js-hw-01",
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.3.0"
   }
 }
