@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Homework #1 JavaScript course",
   "scripts": {
-    "predeploy": "npm run build",  // если есть сборка
-    "deploy": "gh-pages -d ./",    // укажи папку с HTML/JS, например ./ или ./docs
+    "deploy": "gh-pages -d ./",
     "push": "git add . && git commit -m 'update' && git push"
   },
   "repository": {
